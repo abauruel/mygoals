@@ -1,0 +1,18 @@
+POST http://localhost:3333/goals HTTP/1.1
+Content-Type: 'application/json'
+
+{
+    "title": "Nadar",
+    "desiredWeeklyFrequency": 2
+}
+###
+POST http://localhost:3333/completions HTTP/1.1
+Content-Type: 'application/json'
+
+{
+    "goalId": "u7z5v5fvtzs02kuhs1jh9gvk",
+    
+}
+
+###
+GET http://localhost:3333/pending-goals
